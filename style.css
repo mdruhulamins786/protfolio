@@ -10,9 +10,10 @@ h1 {
 .orange-color {
   color: orange;
 }
-
-section {
+.top-banner {
   display: flex;
+  background-image: url("./img/side.png");
+  background-repeat: no-repeat;
 }
 
 .left-side {
@@ -46,13 +47,9 @@ section {
   letter-spacing: 1px;
 }
 
-.top-banner {
-  background-image: url("./img/side.png");
-  background-repeat: no-repeat;
-}
-
 .section-two {
   margin-top: 10%;
+  display: flex;
 }
 
 .left-dream {
@@ -75,4 +72,39 @@ section {
   padding: 7px 20px;
 
   border-radius: 5px;
+}
+
+.section-there {
+  margin-top: 1%;
+  margin-bottom: 10%;
+
+  background-image: url('./img/side-2.png');
+  background-repeat: no-repeat;
+}
+
+.exp {
+  display: flex;
+}
+
+.ex-all {
+  background-color: rgb(255, 255, 255);
+  padding: 0 10px 20px 15px;
+
+  box-shadow: 0px 0px 10px gray;
+}
+
+.ex-all .color {
+  color: orange;
+}
+
+.exp-left {
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.exp-right {
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
 }

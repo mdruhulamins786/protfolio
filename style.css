@@ -18,6 +18,9 @@ section {
 .left-side {
   width: 50%;
   padding-left: 7%;
+
+  margin-top: 200px;
+  margin-right: 20px;
 }
 
 .right-side {
@@ -46,4 +49,30 @@ section {
 .top-banner {
   background-image: url("./img/side.png");
   background-repeat: no-repeat;
+}
+
+.section-two {
+  margin-top: 10%;
+}
+
+.left-dream {
+  width: 50%;
+  margin-left: 12%;
+}
+
+.left-dream > img {
+  width: 80%;
+}
+
+.right-dream {
+  width: 50%;
+  padding-right: 5%;
+}
+
+.dream-btn {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 7px 20px;
+
+  border-radius: 5px;
 }

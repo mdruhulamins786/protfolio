@@ -76,10 +76,14 @@ h1 {
 
 .section-there {
   margin-top: 1%;
-  margin-bottom: 10%;
+  margin-bottom: 1%;
 
   background-image: url('./img/side-2.png');
   background-repeat: no-repeat;
+  background-position: center;
+
+  background-position: left;
+  
 }
 
 .exp {
@@ -91,6 +95,8 @@ h1 {
   padding: 0 10px 20px 15px;
 
   box-shadow: 0px 0px 10px gray;
+  border-left: 5px solid rgb(175, 49, 192);
+  border-radius: 10px;
 }
 
 .ex-all .color {
